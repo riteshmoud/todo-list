@@ -1,0 +1,37 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.task-container{
+    padding: 1.5rem 0;
+}
+
+.task{
+    padding: 0.5rem 0;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task h3{
+    width: 60%;
+    margin-right: 0.8rem;
+    font-size: 2rem;
+}
+
+button{
+    padding: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.removeBtn{
+    background-color: red;
+    color: white;
+    margin-right: 0.8rem;
+}
+
+.moreBtn{
+    background-color: blue;
+    color: white;
+}

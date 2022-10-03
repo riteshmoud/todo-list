@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    padding: 1.5rem;
+    background-color: #00BCD4;
+}
+
+.sec-container{
+    width: 60%;
+    padding: 1.5rem;
+    background-color: #c5eb99;
+    border-radius: 20px;
+}
+
+.sec-container h1{
+    text-align: center;
+}
