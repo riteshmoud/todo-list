@@ -41,6 +41,6 @@ button{
         flex-direction: column;
     }
     .task-options{
-        margin-top: 2rem;
+        margin-top: 1.5rem;
     }
 }
