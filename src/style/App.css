@@ -23,3 +23,9 @@
 .sec-container h1{
     text-align: center;
 }
+
+@media screen and (max-width: 1000px){
+    .sec-container{
+        width: 100%;
+    }
+}
