@@ -23,7 +23,7 @@ class TaskList extends React.Component{
             return (
                 <div key={idx} id={idx} className='task'>
                     <h3>{idx+1 + '. ' + task.task}</h3>
-                    <div>
+                    <div className='task-options'>
                         <button className='removeBtn' onClick={this.onTaskRemove}>Remove</button>
                         <button className='moreBtn' onClick={this.onTaskInfo}>More Info</button>
                     </div>
